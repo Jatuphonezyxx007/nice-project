@@ -1,20 +1,18 @@
 <?php
 // สมมติว่าไฟล์ config.php อยู่ในระดับ root และถูก include อัตโนมัติ
 // หรือคุณอาจจะต้อง include เอง:
-require_once __DIR__ . '/../config.php'; // <-- เอา // ออกจากหน้บรรทัดนี้
+// require_once __DIR__ . '/../config.php'; 
 
 // header.php จะจัดการเรื่อง session และ $BASE_URL
 require_once __DIR__ . '/header.php';
 ?>
 
-<div class="container">
-  <div class="card shadow-sm">
-    <div class="card-header">
-      <h3 class="mb-0">📅 ปฏิทินกะการทำงาน</h3>
-    </div>
-    <div class="card-body">
-      <div id="calendar"></div>
-    </div>
+<div class="card shadow-sm">
+  <div class="card-header">
+    <h3 class="mb-0">📅 ปฏิทินกะการทำงาน</h3>
+  </div>
+  <div class="card-body">
+    <div id="calendar"></div>
   </div>
 </div>
 

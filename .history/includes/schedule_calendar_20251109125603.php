@@ -8,13 +8,12 @@ require_once __DIR__ . '/header.php';
 ?>
 
 <div class="container">
-  <div class="card shadow-sm">
-    <div class="card-header">
-      <h3 class="mb-0">📅 ปฏิทินกะการทำงาน</h3>
-    </div>
-    <div class="card-body">
-      <div id="calendar"></div>
-    </div>
+<div class="card shadow-sm">
+  <div class="card-header">
+    <h3 class="mb-0">📅 ปฏิทินกะการทำงาน</h3>
+  </div>
+  <div class="card-body">
+    <div id="calendar"></div>
   </div>
 </div>
 
