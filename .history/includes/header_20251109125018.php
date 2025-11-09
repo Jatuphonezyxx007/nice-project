@@ -137,7 +137,7 @@ $current_user_profile_image = $_SESSION['profile_image'] ?? null;
                             <a class="nav-link" href="<?php echo BASE_URL; ?>/employee/attendance.php">การลงเวลา</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL; ?>#">ปฏิทินกะ</a>
+                            <a class="nav-link" href="<?php echo BASE_URL; ?>/includes/schedule_calendar.php">ปฏิทินกะ</a>
                         </li>
                     <?php endif; ?>
                 </ul>
